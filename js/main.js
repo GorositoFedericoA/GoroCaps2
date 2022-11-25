@@ -1,185 +1,135 @@
 // PRODUCTOS
 const productos = [
-    // Abrigos
+    // Teclados
     {
-        id: "abrigo-01",
-        titulo: "Abrigo 01",
-        imagen: "./img/abrigos/01.jpg",
+        id: "teclado-01",
+        titulo: "Teclado Redragon Yama",
+        imagen: "./img/teclados/teclado-yama.jpg",
         categoria: {
-            nombre: "Abrigos",
-            id: "abrigos"
+            nombre: "Teclados",
+            id: "teclados"
+        },
+        precio: 17500
+    },
+    {
+        id: "teclado-02",
+        titulo: "Teclado Redragon Kumara",
+        imagen: "./img/teclados/teclado-kumara.jpg",
+        categoria: {
+            nombre: "Teclados",
+            id: "teclados"
+        },
+        precio: 9000
+    },
+    {
+        id: "teclado-03",
+        titulo: "Teclado Redragon Deimos",
+        imagen: "./img/teclados/teclado-deimos.jpg",
+        categoria: {
+            nombre: "Teclados",
+            id: "teclados"
+        },
+        precio: 9700
+    },
+    {
+        id: "teclado-04",
+        titulo: "Teclado Redragon Fizz Pro",
+        imagen: "./img/teclados/teclado-fizzPro.jpg",
+        categoria: {
+            nombre: "Teclados",
+            id: "teclados"
+        },
+        precio: 11300
+    },
+    // Switchs
+    {
+        id: "switch-01",
+        titulo: "Switch Blue",
+        imagen: "./img/switchs/switch-blue.jpeg",
+        categoria: {
+            nombre: "Switchs",
+            id: "switchs"
+        },
+        precio: 3500
+    },
+    {
+        id: "switch-02",
+        titulo: "Switch Red",
+        imagen: "./img/switchs/switch-red.jpeg",
+        categoria: {
+            nombre: "Switchs",
+            id: "switchs"
+        },
+        precio: 3500
+    },
+    {
+        id: "switch-03",
+        titulo: "Switch Brown",
+        imagen: "./img/switchs/switch-brown.jpeg",
+        categoria: {
+            nombre: "Switchs",
+            id: "switchs"
+        },
+        precio: 4000
+    },
+    {
+        id: "switch-04",
+        titulo: "Switch Purple",
+        imagen: "./img/switchs/switch-purple.jpeg",
+        categoria: {
+            nombre: "Switchs",
+            id: "switchs"
+        },
+        precio: 3800
+    },
+    {
+        id: "switch-05",
+        titulo: "Switch Black",
+        imagen: "./img/switchs/switch-black.jpeg",
+        categoria: {
+            nombre: "Switchs",
+            id: "switchs"
+        },
+        precio: 5000
+    },
+    {
+        id: "switch-06",
+        titulo: "Switch Yellow",
+        imagen: "./img/switchs/switch-yellow.jpeg",
+        categoria: {
+            nombre: "Switchs",
+            id: "switchs"
+        },
+        precio: 5800
+    },
+    // Keycaps
+    {
+        id: "keycap-01",
+        titulo: "Set Keycaps vintage",
+        imagen: "./img/keycaps/keycaps-vintage.jpeg",
+        categoria: {
+            nombre: "Keycaps",
+            id: "keycaps"
         },
         precio: 1000
     },
     {
-        id: "abrigo-02",
-        titulo: "Abrigo 02",
-        imagen: "./img/abrigos/02.jpg",
+        id: "keycap-02",
+        titulo: "Set keycaps rainbow",
+        imagen: "./img/keycaps/keycaps-rainbow.jpg",
         categoria: {
-            nombre: "Abrigos",
-            id: "abrigos"
+            nombre: "Keycaps",
+            id: "keycaps"
         },
         precio: 1000
     },
     {
-        id: "abrigo-03",
-        titulo: "Abrigo 03",
-        imagen: "./img/abrigos/03.jpg",
+        id: "keycap-03",
+        titulo: "Keycaps 3D personalizables",
+        imagen: "./img/keycaps/keycaps-3dPersonalizados.jpg",
         categoria: {
-            nombre: "Abrigos",
-            id: "abrigos"
-        },
-        precio: 1000
-    },
-    {
-        id: "abrigo-04",
-        titulo: "Abrigo 04",
-        imagen: "./img/abrigos/04.jpg",
-        categoria: {
-            nombre: "Abrigos",
-            id: "abrigos"
-        },
-        precio: 1000
-    },
-    {
-        id: "abrigo-05",
-        titulo: "Abrigo 05",
-        imagen: "./img/abrigos/05.jpg",
-        categoria: {
-            nombre: "Abrigos",
-            id: "abrigos"
-        },
-        precio: 1000
-    },
-    // Camisetas
-    {
-        id: "camiseta-01",
-        titulo: "Camiseta 01",
-        imagen: "./img/camisetas/01.jpg",
-        categoria: {
-            nombre: "Camisetas",
-            id: "camisetas"
-        },
-        precio: 1000
-    },
-    {
-        id: "camiseta-02",
-        titulo: "Camiseta 02",
-        imagen: "./img/camisetas/02.jpg",
-        categoria: {
-            nombre: "Camisetas",
-            id: "camisetas"
-        },
-        precio: 1000
-    },
-    {
-        id: "camiseta-03",
-        titulo: "Camiseta 03",
-        imagen: "./img/camisetas/03.jpg",
-        categoria: {
-            nombre: "Camisetas",
-            id: "camisetas"
-        },
-        precio: 1000
-    },
-    {
-        id: "camiseta-04",
-        titulo: "Camiseta 04",
-        imagen: "./img/camisetas/04.jpg",
-        categoria: {
-            nombre: "Camisetas",
-            id: "camisetas"
-        },
-        precio: 1000
-    },
-    {
-        id: "camiseta-05",
-        titulo: "Camiseta 05",
-        imagen: "./img/camisetas/05.jpg",
-        categoria: {
-            nombre: "Camisetas",
-            id: "camisetas"
-        },
-        precio: 1000
-    },
-    {
-        id: "camiseta-06",
-        titulo: "Camiseta 06",
-        imagen: "./img/camisetas/06.jpg",
-        categoria: {
-            nombre: "Camisetas",
-            id: "camisetas"
-        },
-        precio: 1000
-    },
-    {
-        id: "camiseta-07",
-        titulo: "Camiseta 07",
-        imagen: "./img/camisetas/07.jpg",
-        categoria: {
-            nombre: "Camisetas",
-            id: "camisetas"
-        },
-        precio: 1000
-    },
-    {
-        id: "camiseta-08",
-        titulo: "Camiseta 08",
-        imagen: "./img/camisetas/08.jpg",
-        categoria: {
-            nombre: "Camisetas",
-            id: "camisetas"
-        },
-        precio: 1000
-    },
-    // Pantalones
-    {
-        id: "pantalon-01",
-        titulo: "Pantalón 01",
-        imagen: "./img/pantalones/01.jpg",
-        categoria: {
-            nombre: "Pantalones",
-            id: "pantalones"
-        },
-        precio: 1000
-    },
-    {
-        id: "pantalon-02",
-        titulo: "Pantalón 02",
-        imagen: "./img/pantalones/02.jpg",
-        categoria: {
-            nombre: "Pantalones",
-            id: "pantalones"
-        },
-        precio: 1000
-    },
-    {
-        id: "pantalon-03",
-        titulo: "Pantalón 03",
-        imagen: "./img/pantalones/03.jpg",
-        categoria: {
-            nombre: "Pantalones",
-            id: "pantalones"
-        },
-        precio: 1000
-    },
-    {
-        id: "pantalon-04",
-        titulo: "Pantalón 04",
-        imagen: "./img/pantalones/04.jpg",
-        categoria: {
-            nombre: "Pantalones",
-            id: "pantalones"
-        },
-        precio: 1000
-    },
-    {
-        id: "pantalon-05",
-        titulo: "Pantalón 05",
-        imagen: "./img/pantalones/05.jpg",
-        categoria: {
-            nombre: "Pantalones",
-            id: "pantalones"
+            nombre: "Keycaps",
+            id: "keycaps"
         },
         precio: 1000
     }

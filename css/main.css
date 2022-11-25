@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
-
 :root {
-    --clr-main: #4b33a8;
-    --clr-main-light: #785ce9;
+    --clr-main: #0782ce;
+    --clr-main-light: #0782ce;
     --clr-white: #ececec;
     --clr-gray: #e2e2e2;
     --clr-red: #961818;
@@ -12,7 +10,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Rubik', sans-serif;
+    font-family: sans-serif;
+    font-weight: 600;
 }
 
 h1, h2, h3, h4, h5, h6, p, a, input, textarea, ul {
@@ -27,6 +26,7 @@ ul {
 a {
     text-decoration: none;
 }
+
 
 .wrapper {
     display: grid;
@@ -124,10 +124,7 @@ aside {
     color: var(--clr-white);
 }
 
-.texto-footer {
-    color: var(--clr-main-light);
-    font-size: .85rem;
-}
+
 
 main {
     background-color: var(--clr-white);
